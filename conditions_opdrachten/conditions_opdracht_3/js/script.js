@@ -9,10 +9,7 @@ function check() {
 
     } else {
         document.getElementById("tekst").innerHTML = "Er is geen geld gestort!";
-
-
-
-
+        
     }
 
 }
