@@ -3,7 +3,7 @@ function showloop(){
     var a;
     var text="";
 
-    for (a=1;a <=20; a++){
+    for (a=1;a <=5; a++){
     console.log(a);
     text += "Nummer" + a +"<br>"
 }
