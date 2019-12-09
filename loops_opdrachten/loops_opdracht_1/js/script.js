@@ -1,9 +1,11 @@
 //javascript code
 function showloop(){
-    let a;
-    let text="";
+    var a;
+    var text="";
 
-    for (a=1;a <=5; a++)"<br>"
+    for (a=1;a <=20; a++){
+    console.log(a);
+    text += "Nummer" + a +"<br>"
 }
 document.getElementById("loop").innerHTML = text;
 }
